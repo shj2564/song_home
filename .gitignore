@@ -1,0 +1,27 @@
+# Signing secrets
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+password.txt
+*password*
+
+# Service secrets
+.env
+.env.*
+*client_secret*
+*CLIENT_SECRET*
+
+# Proprietary/generated Android packages
+*.apk
+*.apks
+*.xapk
+*.aab
+
+# Generated build output
+**/build/
+**/.gradle/
+**/dist/tmp/
+*.log
